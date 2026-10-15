@@ -1,5 +1,6 @@
 package com.example.library.dto;
 
+import com.example.library.validation.LettersOnly;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -9,6 +10,7 @@ import lombok.Data;
 public class RegisterRequest {
 
     @NotBlank(message = "Full name is required")
+    @LettersOnly
     private String fullName;
 
     @NotBlank(message = "Email is required")
@@ -19,3 +21,4 @@ public class RegisterRequest {
     @Size(min = 6, message = "Password must be at least 6 characters")
     private String password;
 }
+

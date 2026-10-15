@@ -1,5 +1,6 @@
 package com.example.library.dto;
 
+import com.example.library.validation.LettersOnly;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
@@ -15,5 +16,7 @@ public class ReviewRequest {
     private Integer rating;
 
     @Size(max = 1000)
+    @LettersOnly
     private String comment;
 }
+
