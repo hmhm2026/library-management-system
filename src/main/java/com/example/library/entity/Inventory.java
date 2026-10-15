@@ -51,3 +51,4 @@ public class Inventory {
         updatedAt = LocalDateTime.now();
     }
 }
+

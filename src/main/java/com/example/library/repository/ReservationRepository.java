@@ -24,3 +24,4 @@ public interface ReservationRepository extends JpaRepository<Reservation, Long> 
     // بيستخدم لمعرفة كل الكتب اللي عليها حجوزات واقفة، عشان نزامن حالتها
     List<Reservation> findByStatus(ReservationStatus status);
 }
+

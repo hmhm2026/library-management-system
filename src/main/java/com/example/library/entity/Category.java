@@ -31,3 +31,4 @@ public class Category {
     @Size(max = 500)
     private String description;
 }
+

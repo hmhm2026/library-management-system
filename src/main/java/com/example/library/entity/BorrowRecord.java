@@ -59,3 +59,4 @@ public class BorrowRecord {
         fineAmount = 0.0;
     }
 }
+

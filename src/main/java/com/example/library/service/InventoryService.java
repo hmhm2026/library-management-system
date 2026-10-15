@@ -64,3 +64,4 @@ public class InventoryService {
         inventoryRepository.delete(existing);
     }
 }
+

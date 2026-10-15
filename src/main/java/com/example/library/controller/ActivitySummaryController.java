@@ -53,3 +53,4 @@ public class ActivitySummaryController {
         return ResponseEntity.ok(activitySummaryService.getSummary(id));
     }
 }
+

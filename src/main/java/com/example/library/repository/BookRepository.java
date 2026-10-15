@@ -14,3 +14,4 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     // بيستخدم قبل حذف أي تصنيف، عشان نمنع حذف تصنيف لسه ليه كتب مرتبطة بيه
     boolean existsByCategoryId(Long categoryId);
 }
+

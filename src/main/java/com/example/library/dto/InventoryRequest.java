@@ -14,3 +14,4 @@ public class InventoryRequest {
     @PositiveOrZero(message = "Available copies cannot be negative")
     private Integer availableCopies;
 }
+

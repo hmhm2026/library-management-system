@@ -49,3 +49,4 @@ public class ActivitySummaryService {
         return summary;
     }
 }
+

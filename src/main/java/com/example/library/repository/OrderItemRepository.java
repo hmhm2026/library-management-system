@@ -10,3 +10,4 @@ public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {
     // بيستخدم في Review عشان يتحقق إن العميل اشترى الكتاب ده قبل كده
     boolean existsByOrder_ClientIdAndBookId(Long clientId, Long bookId);
 }
+

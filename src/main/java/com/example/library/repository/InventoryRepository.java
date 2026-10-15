@@ -13,3 +13,4 @@ public interface InventoryRepository extends JpaRepository<Inventory, Long> {
 
     boolean existsByBookId(Long bookId);
 }
+

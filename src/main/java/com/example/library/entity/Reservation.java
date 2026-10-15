@@ -48,3 +48,4 @@ public class Reservation {
         status = ReservationStatus.WAITING;
     }
 }
+

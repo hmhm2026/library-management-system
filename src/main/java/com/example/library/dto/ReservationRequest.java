@@ -9,3 +9,4 @@ public class ReservationRequest {
     @NotNull(message = "Book id is required")
     private Long bookId;
 }
+

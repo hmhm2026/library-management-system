@@ -9,3 +9,4 @@ public class BorrowRequest {
     @NotNull(message = "Book id is required")
     private Long bookId;
 }
+

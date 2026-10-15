@@ -30,3 +30,4 @@ public interface BorrowRecordRepository extends JpaRepository<BorrowRecord, Long
     @Query("SELECT COALESCE(SUM(b.fineAmount), 0) FROM BorrowRecord b WHERE b.client.id = :clientId")
     Double sumFineAmountByClientId(Long clientId);
 }
+

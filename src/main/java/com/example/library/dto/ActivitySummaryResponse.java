@@ -29,3 +29,4 @@ public class ActivitySummaryResponse {
     private long totalReservations;
     private long activeReservations;
 }
+
